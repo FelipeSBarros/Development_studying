@@ -1,8 +1,8 @@
-# Repo to host all notes from my studies
+# Repositório de estudos
 
-It is all build in [markdown](https://en.wikipedia.org/wiki/Markdown) and organized as notes in [Obsidian](https://obsidian.md/).
+O presente repositório possui topdas as notas criadas por mim em meus processos de estudo. Todos em [markdown](https://en.wikipedia.org/wiki/Markdown) e organizados usando o [Obsidian](https://obsidian.md/).
 
-## Topics:
-* *[[Docker]]
-* *[[RasterVision]]
-* 
+## Tópicos:
+* [[Docker]]
+* [[RasterVision]]
+* [[Scrapy]]
