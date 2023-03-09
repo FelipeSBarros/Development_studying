@@ -101,3 +101,5 @@ sandy = User(name="sandy", fullname="Sandy Cheeks")
 # [Table reflection](https://docs.sqlalchemy.org/en/20/tutorial/metadata.html#table-reflection)
 
 > Table reflection refers to the process of generating [`Table`](https://docs.sqlalchemy.org/en/20/core/metadata.html#sqlalchemy.schema.Table "sqlalchemy.schema.Table") and related objects by reading the current state of a database. Whereas in the previous sections we’ve been declaring [`Table`](https://docs.sqlalchemy.org/en/20/core/metadata.html#sqlalchemy.schema.Table "sqlalchemy.schema.Table") objects in Python and then emitting DDL to the database, the reflection process does it in reverse.
+
+* [[AnnotatedObject]]
