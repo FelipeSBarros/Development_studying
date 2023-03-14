@@ -8,19 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bc1f2d129aeb8ccc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pytest/Pytest.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a13eeff91c827661",
+            "id": "b1e04149865ee77f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,12 +20,24 @@
             }
           },
           {
-            "id": "011ee5e2ef306532",
+            "id": "9e31a7b685d5f13d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AnnotatedObject.md",
+                "file": "SQLAlchemy/Dicas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5e310c26b6bee45a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AnnotatedObject.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AnnotatedObject.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AnnotatedObject.md"
+                "file": "README.md"
               }
             }
           }
@@ -173,10 +173,16 @@
   },
   "active": "241b8beee50a3889",
   "lastOpenFiles": [
+    "Alembic/Alembic.md",
     "SQLAlchemy/TableDeclaration.md",
+    "SQLAlchemy/Dicas.md",
+    "Alembic",
+    "SQLAlchemy/Creating and persisting objects.md",
+    "SQLAlchemy/FunctionObject.md",
     "Pytest/Pytest.md",
-    "AnnotatedObject.md",
     "Pytest/Pyteste-fixture.md",
+    "SQLAlchemy/Session.md",
+    "SQLAlchemy/AnnotatedObject.md",
     "SQLAlchemy/SQLAlchemy.md",
     "SQLAlchemy/DataBaseCreation.md",
     "Pytest",

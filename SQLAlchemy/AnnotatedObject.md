@@ -26,7 +26,7 @@ timestamp = Annotated[
 required_name = Annotated[str, mapped_column(String(30), nullable=False)]
 ```
 
-Os objetos `Annotated` poderão em seguida ser utilizados diretamente com [`Mapped`](https://docs.sqlalchemy.org/en/20/orm/internals.html#sqlalchemy.orm.Mapped "sqlalchemy.orm.Mapped").
+Os objetos `Annotated` poderão em seguida ser utilizados diretamente com [`Mapped`](https://docs.sqlalchemy.org/en/20/orm/internals.html#sqlalchemy.orm.Mapped "sqlalchemy.orm.Mapped"). Para mias informações sobre o uso do `func`, veja [[FunctionObject]].
 
 ```python
 class Base(DeclarativeBase):
