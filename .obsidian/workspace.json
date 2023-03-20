@@ -13,38 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQLAlchemy/TableDeclaration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9e31a7b685d5f13d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQLAlchemy/Dicas.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5e310c26b6bee45a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
+                "file": "Pytest/Pyteste-fixture.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Pytest/Pyteste-fixture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Pytest/Pyteste-fixture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Pytest/Pyteste-fixture.md"
               }
             }
           }
@@ -171,11 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "241b8beee50a3889",
+  "active": "b1e04149865ee77f",
   "lastOpenFiles": [
-    "Alembic/Alembic.md",
     "SQLAlchemy/TableDeclaration.md",
+    "Alembic/Alembic.md",
     "SQLAlchemy/Dicas.md",
+    "SQLAlchemy/SQLAlchemy.md",
+    "README.md",
     "Alembic",
     "SQLAlchemy/Creating and persisting objects.md",
     "SQLAlchemy/FunctionObject.md",
@@ -183,14 +160,12 @@
     "Pytest/Pyteste-fixture.md",
     "SQLAlchemy/Session.md",
     "SQLAlchemy/AnnotatedObject.md",
-    "SQLAlchemy/SQLAlchemy.md",
     "SQLAlchemy/DataBaseCreation.md",
     "Pytest",
     "SQLAlchemy/ORM.md",
     "SQLAlchemy/Engine.md",
     "RasterVision.md",
     "NVIDIA container -toolkit.md",
-    "README.md",
     "Docker.md"
   ]
 }

@@ -73,17 +73,3 @@ class User(Base):
     id = sa.Column(sa.Integer, primary_key=True)
     name = sa.Column(sa.String, nullable=False, doc="User name", comment="User name")
 ```
-
-## Include date and time to Alembic migration files
-
-Default migration files have the format `<revision>_<slug>.py`. A randomly generated revision makes it harder to find recently added migrations. The solution is to add a date and time prefix to the template generator.
-
-Update `alembic.ini` to define the file template:
-
-```ini
-file_template = %%(year)d%%(month).2d%%(day).2d_%%(rev)s_%%(slug)s
-```
-
-The command `alembic revision -m "Add new column"` will generate a file like this: `migrations/versions/20211128_2eb46b06af52_add_new_column.py`.
-
-Alternatively, you can generate a new revision manually with the `--rev-id` flag.

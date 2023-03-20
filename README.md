@@ -6,3 +6,5 @@ O presente repositório possui topdas as notas criadas por mim em meus processos
 * [[Docker]]
 * [[RasterVision]]
 * [[Scrapy]]
+* [[SQLAlchemy]]
+	* [[Alembic]]
