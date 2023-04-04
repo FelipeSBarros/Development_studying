@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pytest/Pyteste-fixture.md",
+                "file": "Alembic/Alembic.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pytest/Pyteste-fixture.md",
+                "file": "Alembic/Alembic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pytest/Pyteste-fixture.md",
+                "file": "Alembic/Alembic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pytest/Pyteste-fixture.md"
+                "file": "Alembic/Alembic.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "b1e04149865ee77f",
   "lastOpenFiles": [
+    "SQLAlchemy/AnnotatedObject.md",
+    "Pytest/Pyteste-fixture.md",
     "SQLAlchemy/TableDeclaration.md",
     "Alembic/Alembic.md",
     "SQLAlchemy/Dicas.md",
@@ -157,9 +159,7 @@
     "SQLAlchemy/Creating and persisting objects.md",
     "SQLAlchemy/FunctionObject.md",
     "Pytest/Pytest.md",
-    "Pytest/Pyteste-fixture.md",
     "SQLAlchemy/Session.md",
-    "SQLAlchemy/AnnotatedObject.md",
     "SQLAlchemy/DataBaseCreation.md",
     "Pytest",
     "SQLAlchemy/ORM.md",

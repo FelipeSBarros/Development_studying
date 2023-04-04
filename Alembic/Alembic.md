@@ -90,6 +90,12 @@ config.set_section_option("alembic", "sqlalchemy.url",
 
 :warning: O `.env` deve ter uma variável de ambiente `DB_URL`.
 
+**Enfim criando a migração**:
+
+```python
+alembic revision --autogenerate -m "msg"
+```
+
 ## Incluindo data e hora date ao arquivo de migração
 
 O arquivo de migração possui, por padrão, o seguinte formado: `<revision>_<slug>.py`. Um arquivo com nome gerado aleatoriamente torna dificil identifixar as migrações mais recentes. Uma solução seria adicionar data e hora ao prefixo do nome,a lterando o modelo de geração de nome:
@@ -98,4 +104,11 @@ Atualize o `alembic.ini`, descomentando e alterando o `file_template`:
 
 ```ini
 file_template = %%(year)d%%(month).2d%%(day).2d_%%(rev)s_%%(slug)s
+```
+
+# aplicando migracoes
+
+
+```python
+alembic upgrade head
 ```
