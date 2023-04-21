@@ -63,7 +63,7 @@ Em `alembic.ini`, buscar pelo `sqlalchemy.url` e adicionar o uri à base de dado
 ## Gerando migração a apartir de models.py
 
 [ver live](https://www.youtube.com/live/yQtqkq9UkDA?feature=share&t=3896) 
-Para relacinoar o `models.py` com o alembic, será necessário adicionar ao `.ev.py`, do alembic o [`Base.metadata`](https://www.youtube.com/live/yQtqkq9UkDA?feature=share&t=3791):
+Para relacinoar o `models.py` com o alembic, será necessário adicionar ao `.env.py`, do alembic o [`Base.metadata`](https://www.youtube.com/live/yQtqkq9UkDA?feature=share&t=3791):
 
 ```python
 # .env.py
@@ -82,11 +82,13 @@ Add ao `.env`:
 Add ao `alembic.ini`:
 `sqlalchemy.url = none`
 
-Add ao `.emv.py`:
+Add ao `.env.py`:
 ```python
 config.set_section_option("alembic", "sqlalchemy.url",  
                           os.environ.get("DB_URL", config.get_section_option("alembic", "sqlalchemy.url")))
 ```
+
+E adicionar como `target_metadata = Base.metadata`
 
 :warning: O `.env` deve ter uma variável de ambiente `DB_URL`.
 
