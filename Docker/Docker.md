@@ -40,12 +40,25 @@ removendo `docker volumes`:
 docker volume rm  
 ```  
   
-Removendo `dcoker networks`:  
+Removendo `docker networks`:  
   
 ```commandline  
 docker network rm  
 ```  
-  
+
+**Inspecionando** um container:
+Primeiro, temos que identificar o ID dele:
+
+```
+docker container ls
+CONTAINER ID   IMAGE             COMMAND                  CREATED          STATUS          PORTS      NAMES
+596c91e63fe1   postgis/postgis   "docker-entrypoint.s…"   11 minutes ago   Up 11 minutes   5432/tcp   postgis
+```
+Agora usamos o **CONTAINER ID** no comando:
+```
+docker inspect 596c91e63fe1
+```
+
 ## Executando docker  
   
 ```shell  

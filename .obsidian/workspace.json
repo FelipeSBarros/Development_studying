@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4b78898583eba549",
+        "id": "900c2ecddd2c4d6f",
         "type": "tabs",
         "children": [
           {
-            "id": "b1e04149865ee77f",
+            "id": "09295e1931545ae8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker.md",
+                "file": "Docker/Docker PostGIS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker.md",
+                "file": "Docker/Docker PostGIS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker.md",
+                "file": "Docker/Docker PostGIS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker.md"
+                "file": "Docker/Docker PostGIS.md"
               }
             }
           }
@@ -146,9 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b1e04149865ee77f",
+  "active": "09295e1931545ae8",
   "lastOpenFiles": [
+    "Docker/Docker.md",
+    "Docker/Docker PostGIS.md",
+    "Flatpak.md",
+    "Flatpak.canvas",
     "Alembic/Alembic.md",
+    "Docker",
     "SQLAlchemy/Dicas.md",
     "SQLAlchemy/DataBaseCreation.md",
     "SQLAlchemy/Creating and persisting objects.md",
@@ -165,7 +170,6 @@
     "SQLAlchemy/ORM.md",
     "SQLAlchemy/Engine.md",
     "RasterVision.md",
-    "NVIDIA container -toolkit.md",
-    "Docker.md"
+    "NVIDIA container -toolkit.md"
   ]
 }
