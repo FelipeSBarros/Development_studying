@@ -49,7 +49,11 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Bash/ZSH e Oh My zsh.md",
+=======
+                "file": "Alembic/Alembic.md",
+>>>>>>> Stashed changes
                 "mode": "source",
                 "source": false
               }
