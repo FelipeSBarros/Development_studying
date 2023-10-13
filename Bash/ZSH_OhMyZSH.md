@@ -28,7 +28,7 @@ gedit ~/.zshrc
 Adicione
 
 ```bash
-export PATH="$HOME/.local/bin:{$PATH}”
+export PATH="$HOME/.local/bin:{$PATH}"
 ```
 
 Depois reinicie o terminal
