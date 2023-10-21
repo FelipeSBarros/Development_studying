@@ -59,9 +59,11 @@
             "id": "0722ef018f34777b",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.16"
+                "file": "Bash/ZSH_OhMyZSH.md",
+                "mode": "source",
+                "source": false
               }
             }
           }

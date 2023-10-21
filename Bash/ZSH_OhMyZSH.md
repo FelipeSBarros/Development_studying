@@ -40,7 +40,13 @@ source ~/.zshrc
 ## [Plugins](https://github.com/unixorn/awesome-zsh-plugins)
 
 * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+**Installing:**
+`git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+
 * [git](https://kapeli.com/cheat_sheets/Oh-My-Zsh_Git.docset/Contents/Resources/Documents/index)
+
+**.zshrc:**
+
 ```
 plugins=(git
 	zsh-autosuggestions)
