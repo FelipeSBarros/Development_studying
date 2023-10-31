@@ -8,67 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "60e89c567de5479a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bash/ZSH_OhMyZSH.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b3a7963ec5e2716",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pacotes Python/HTTPX/HTTPX.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8dc27281681b10a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pacotes Python/HTTPX/Async.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6772edccdf79b5e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bash/ZSH_OhMyZSH.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0722ef018f34777b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bash/ZSH_OhMyZSH.md",
+                "file": "neovim/NeoVim.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bash/ZSH_OhMyZSH.md",
+                "file": "neovim/NeoVim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bash/ZSH_OhMyZSH.md",
+                "file": "neovim/NeoVim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bash/ZSH_OhMyZSH.md"
+                "file": "neovim/NeoVim.md"
               }
             }
           }
@@ -197,13 +148,16 @@
   },
   "active": "0722ef018f34777b",
   "lastOpenFiles": [
+    "Bash/ZSH_OhMyZSH.md",
+    "neovim/NeoVim.md",
+    "Adicionando ao `ohzsh.rc`.md",
+    "neovim",
     "Pacotes Python/HTTPX/HTTPX.md",
     "nvim.appimage",
     "Pacotes Python/HTTPX/Async.md",
     "Pacotes Python/Asyncio.md",
     "Pacotes Python/HTTPX",
     "Pacotes Python",
-    "Bash/ZSH_OhMyZSH.md",
     "Processos asíncronos",
     "README.md"
   ]
