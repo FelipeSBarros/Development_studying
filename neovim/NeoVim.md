@@ -106,3 +106,30 @@ O Polyglot adiciona syntax highlighting pra várias linguagens. Basta adiciona o
 
 `Plug 'sheerun/vim-polyglot'`
 
+### nerdtree
+Com o [NerdTree](- [https://github.com/preservim/nerdtree](https://github.com/preservim/nerdtree)) podemos manipular e navegar pelas pastas e arquivos, de forma facilitada. 
+`Plug 'preservim/nerdtree`
+
+o site do NerdTree tem muitos exemplos de configurações e autocmds disponíveis. 
+Com o seguinte remap, poderemos usar `Ctrl+a` para abrir e fechar o painel.
+
+`nmap <C-a> :NERDTreeToggle<CR>`
+
+Podemos adicionar também atalhos para navegar pelos paineis:
+```
+" Shortcuts for split navigation
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+```
+
+### FUZZY FINDER
+
+O [Telescope](https://github.com/nvim-telescope/telescope.nvim) é um fuzzy finder, que serve para buscar arquivos e strings dentro do projeto.
+
+```
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+```
+É preciso instalar o [`ripgrep`](https://github.com/BurntSushi/ripgrep) e o [`fd`](https://github.com/sharkdp/fd), para conseguirmos fazer as buscas por palavras. 
