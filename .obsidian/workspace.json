@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "f00e1ed4ba72d0e2",
+        "id": "3ff3a279a00a15af",
         "type": "tabs",
         "children": [
           {
-            "id": "0722ef018f34777b",
+            "id": "2541e6fc0520ec17",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "neovim/NeoVim.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "db5b55416c546139",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "neovim/NeoVim.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "neovim/NeoVim.md",
+                "file": "Copilot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "neovim/NeoVim.md",
+                "file": "Copilot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "neovim/NeoVim.md"
+                "file": "Copilot.md"
               }
             }
           }
@@ -159,10 +142,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "db5b55416c546139",
+  "active": "f20d6233ce91c352",
   "lastOpenFiles": [
-    "Bash/ZSH_OhMyZSH.md",
+    "Copilot.md",
+    "NodeJS.md",
     "neovim/NeoVim.md",
+    "Bash/ZSH_OhMyZSH.md",
     "Adicionando ao `ohzsh.rc`.md",
     "neovim",
     "Pacotes Python/HTTPX/HTTPX.md",

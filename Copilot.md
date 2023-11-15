@@ -7,4 +7,12 @@ git clone https://github.com/github/copilot.vim \
    ~/.config/nvim/pack/github/start/copilot.vim
 ```
 
-É necessário instala [node.js](https://github.com/nodesource/distributions#debian-and-ubuntu-based-distributions) para poder usar em nvim.
+É necessário instalar [[NodeJS]] para poder usar em nvim.
+
+Uma vez instalado NodeJS, basta configurar:
+
+`:Copilot setup`
+
+```shell
+:help copilot
+```
