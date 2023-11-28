@@ -35,7 +35,7 @@ docker exec -ti postgis psql -U postgres
 
 :warning: Para conectar pelo DBeaver ou pgAdmin, é necessário usar o IP e não a string `localhost`.
 
-Outra forma de conectar é iniciando um outro container para ser usado como instânciacliente. Neste caso, pode-se usar um `network` definido por usuário para conectar ambos containers:
+Outra forma de conectar é iniciando um outro container para ser usado como instância cliente. Neste caso, pode-se usar um `network` definido por usuário para conectar ambos containers:
 
 `docker network create some-network`
 
@@ -43,6 +43,6 @@ Em seguida, deve-se criar o **container server** com o parâmetro `--network`, o
 
 ```docker run --name postgis --network some-network -e POSTGRES_PASSWORD=mysecretpassword -d postgis/postgis```
 
-No caso do **container cleinte**:
+No caso do **container cliente**:
 
 ```docker run -it --rm --network some-network postgis/postgis psql -h some-postgis -U postgres```

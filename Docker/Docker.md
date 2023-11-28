@@ -7,7 +7,7 @@
 Listar todas as imagens docker:  
   
 ```commandline  
-docker imges  
+docker images  
 ```  
   
 Remover imagem docker:  
