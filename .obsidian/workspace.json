@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "4bbc18db6505e355",
+        "id": "2aa5a5539c9f39b7",
         "type": "tabs",
         "children": [
           {
-            "id": "51472241b3c066c0",
+            "id": "0d1c6f6ec6982d4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Copilot.md",
+                "file": "Pretix/Small-scale deployment with Docker.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b42cc2a281af5e1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pretix/Small-scale deployment with Docker.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Copilot.md",
+                "file": "Pretix/Small-scale deployment with Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Copilot.md",
+                "file": "Pretix/Small-scale deployment with Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Copilot.md"
+                "file": "Pretix/Small-scale deployment with Docker.md"
               }
             }
           }
@@ -146,6 +159,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "51472241b3c066c0",
-  "lastOpenFiles": []
+  "active": "b42cc2a281af5e1b",
+  "lastOpenFiles": [
+    "Docker/Docker.md",
+    "Docker/Docker Orfeo Toolbox.md",
+    "Docker/Docker PostGIS.md",
+    "Pretix/Small-scale deployment with Docker.md",
+    "Copilot.md",
+    "Pretix"
+  ]
 }
