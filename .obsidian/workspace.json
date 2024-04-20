@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0d1c6f6ec6982d4d",
+            "id": "0c4f243fabfd9c50",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pretix/Small-scale deployment with Docker.md",
+                "file": "DeepLearning/Practical Deep Learning.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b42cc2a281af5e1b",
+            "id": "d33702c4307e62d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pretix/Small-scale deployment with Docker.md",
+                "file": "DeepLearning/Lesson1.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "578105cb86bac52f",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pretix/Small-scale deployment with Docker.md",
+                "file": "DeepLearning/Lesson1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pretix/Small-scale deployment with Docker.md",
+                "file": "DeepLearning/Lesson1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pretix/Small-scale deployment with Docker.md"
+                "file": "DeepLearning/Lesson1.md"
               }
             }
           }
@@ -159,12 +159,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b42cc2a281af5e1b",
+  "active": "d33702c4307e62d7",
   "lastOpenFiles": [
+    "DeepLearning/Practical Deep Learning.md",
+    "DeepLearning/Lesson1.md",
+    "Pretix/Small-scale deployment with Docker.md",
+    "DeepLearning",
     "Docker/Docker.md",
     "Docker/Docker Orfeo Toolbox.md",
     "Docker/Docker PostGIS.md",
-    "Pretix/Small-scale deployment with Docker.md",
     "Copilot.md",
     "Pretix"
   ]
