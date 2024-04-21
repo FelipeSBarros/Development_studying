@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DeepLearning/Lesson1.md",
+                "file": "DeepLearning/Lesson2.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DeepLearning/Lesson1.md",
+                "file": "DeepLearning/Lesson2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DeepLearning/Lesson1.md",
+                "file": "DeepLearning/Lesson2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DeepLearning/Lesson1.md"
+                "file": "DeepLearning/Lesson2.md"
               }
             }
           }
@@ -161,8 +161,9 @@
   },
   "active": "d33702c4307e62d7",
   "lastOpenFiles": [
-    "DeepLearning/Practical Deep Learning.md",
     "DeepLearning/Lesson1.md",
+    "DeepLearning/Lesson2.md",
+    "DeepLearning/Practical Deep Learning.md",
     "Pretix/Small-scale deployment with Docker.md",
     "DeepLearning",
     "Docker/Docker.md",
