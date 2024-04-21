@@ -1,7 +1,6 @@
 
-# Some Toughts:
+# Some toughts and text highlights:
 > "Neural networks don't require us to build features to predict something on machine learning algorithm. They build them for us!"
-
 
 > "We don't give it features, we ask it to learn features."
 
@@ -25,6 +24,14 @@ _D. Zeiler and Rob Fergus: Each weight find different features. Like, one to ide
 > _overfitting_: (i.e., you have actually observed the validation accuracy getting worse during training)
 
 > `epochs`: how many times to look at each image;
+
+> [DeepLearning] model has learned to create feature detectors that look for corners, repeating lines, circles, and other simple patterns. These are built from the basic building blocks developed in the first layer.
+
+> Growing the layer of networks it start being able to identify and match with higher-level semantic components, such as car wheels, text, and flower petals. Using these components, layers four and five can identify even higher-level concepts
+
+> _Machine learning_ is a discipline where we define a program not by writing it entirely ourselves, but by learning from data. _Deep learning_ is a specialty within machine learning that uses _neural networks_ with multiple _layers_.
+
+> training data is fully exposed, the validation data is less exposed, and test data is totally hidden.
 
 ## [DataBlock](https://docs.fast.ai/data.block.html)
 High level API to quickly get your data in a `DataLoaders`;
@@ -67,3 +74,6 @@ São poucos os tipos de modelo que servem para quase todas as aplicações.
 ### `predict()` method
 
 * `loss`: number that says how good were the results.
+
+### `fit_one_cycle`
+`fit_one_cycle`, the most commonly used method for training fastai models _from scratch_ (i.e. without transfer learning);
