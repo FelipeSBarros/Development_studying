@@ -18,8 +18,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 sudo apt-get install fonts-powerline
 ```
 
-## Erros:
-Se der erro no `poetry:
+## Erros e solução de problemas:
+
+## Se der erro no `poetry:
 
 ```bash
 gedit ~/.zshrc
@@ -36,6 +37,10 @@ Depois reinicie o terminal
 ```python
 source ~/.zshrc
 ```
+
+### Erro no `pip`
+
+[python pip issues](https://www.golinuxcloud.com/zsh-command-not-found-pip/)
 
 ## [Plugins](https://github.com/unixorn/awesome-zsh-plugins)
 
