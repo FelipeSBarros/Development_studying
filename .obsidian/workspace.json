@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "390aca63e1ae3767",
+        "id": "1aa9a5a8a0353145",
         "type": "tabs",
         "children": [
           {
-            "id": "f5a4b1156f339180",
+            "id": "5f4951021677ce4e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,16 +138,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f5a4b1156f339180",
+  "active": "5f4951021677ce4e",
   "lastOpenFiles": [
+    "Docker/Docker.md",
+    "DeepLearning/Practical Deep Learning.md",
     "Bash/ZSH_OhMyZSH.md",
     "Pacotes Python/Asyncio.md",
-    "DeepLearning/Practical Deep Learning.md",
     "DeepLearning/Lesson2.md",
     "DeepLearning/Lesson1.md",
     "Pretix/Small-scale deployment with Docker.md",
     "DeepLearning",
-    "Docker/Docker.md",
     "Docker/Docker Orfeo Toolbox.md",
     "Docker/Docker PostGIS.md",
     "Copilot.md",

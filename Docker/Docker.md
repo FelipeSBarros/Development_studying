@@ -1,9 +1,61 @@
-## Docker cheatsheet  
+# [Instalação](https://linuxize.com/post/how-to-install-docker-on-ubuntu/)
 
-[enabling docker to run without `sudo`](https://docs.docker.com/engine/install/linux-postinstall/)
+```
+sudo apt install ca-certificates curl gnupg
+```
 
+Next, import the Docker repository’s GPG key to your system:
+
+```
+sudo mkdir -p /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+```
+
+Add the Docker APT repository to your system:
+
+```
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list
+```
+
+`$(lsb_release -cs)` will print the Ubuntu codename. For example, if you have [Ubuntu version](https://linuxize.com/post/how-to-check-your-ubuntu-version/) 22.04 the command will print `jammy`.
+
+Now that the Docker repository is enabled, you can install any Docker version that is available in the repositories.
+
+To install the latest version of Docker, run the commands below. If you want to install a specific Docker version, skip this step and go to the next one.
+
+```
+sudo apt update
+```
+
+## [Enabling docker to run without `sudo`](https://docs.docker.com/engine/install/linux-postinstall/)
 [source](https://linuxize.com/post/how-to-remove-docker-images-containers-volumes-and-networks/)  
-  
+To create the `docker` group and add your user:
+
+* Create the `docker` group.
+```console
+sudo groupadd docker
+```
+
+- Add your user to the `docker` group.
+```console
+sudo usermod -aG docker $USER
+```
+
+- Log out and log back in so that your group membership is re-evaluated.
+You can also run the following command to activate the changes to groups:
+```console
+newgrp docker
+```
+
+- Verify that you can run `docker` commands without `sudo`.
+```console
+docker run hello-world
+```
+This command downloads a test image and runs it in a container. When the container runs, it prints a message and exits.
+
+## Comandos gerais
 Listar todas as imagens docker:  
   
 ```commandline  
