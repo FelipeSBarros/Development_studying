@@ -1,3 +1,4 @@
+[**POST muito bom**](https://scottogletree.com/post/docker/)
 
 A imagem do PostGIS instala e instancia um banco de dados PostgreSQL com as seguintes extensões já instaladas:
 
@@ -25,7 +26,7 @@ Basta iniciar o container:
 * `-d` libera o terminal e apresenta o container ID;
 * `postgis/postgis` é a imagem a ser executada;
 
-Ainda que se trate de ua imagem `postgis`, os principais parâmetros e formas de usar estão vinculadas ao [`postgre`](https://registry.hub.docker.com/_/postgres/)
+Ainda que se trate de uma imagem `postgis`, os principais parâmetros e formas de usar estão vinculadas ao [`postgre`](https://registry.hub.docker.com/_/postgres/)
 
 ## Acessando o banco de dados pelo `psql`
 
