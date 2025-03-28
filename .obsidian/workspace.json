@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "76e1726b52bc87e8",
+        "id": "5e89fb726535a862",
         "type": "tabs",
         "children": [
           {
-            "id": "ed99286ff6a9d81f",
+            "id": "5f689cedbecf0730",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redacción académica/8. Herramientas informáticas de apoyo a la preparación de artículos científicos.md",
+                "file": "Docker/Docker Orfeo Toolbox.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8. Herramientas informáticas de apoyo a la preparación de artículos científicos"
+              "title": "Docker Orfeo Toolbox"
             }
           }
         ]
@@ -163,10 +163,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ed99286ff6a9d81f",
+  "active": "5f689cedbecf0730",
   "lastOpenFiles": [
-    "Redacción académica/9. Visibilidad y accesibilidad de la actividad científica.md",
+    "Docker/Docker PostGIS.md",
+    "Docker/Docker Orfeo Toolbox.md",
+    "Docker/Docker.md",
+    "RasterVision.md",
     "Redacción académica/8. Herramientas informáticas de apoyo a la preparación de artículos científicos.md",
+    "Redacción académica/9. Visibilidad y accesibilidad de la actividad científica.md",
     "Redacción académica/7. Proceso editorial de una revista científica.md",
     "Redacción académica/6. Criterios de seleção de revista científica.md",
     "Redacción académica/4. La estructura IMRC.md",
@@ -183,8 +187,6 @@
     "Jekyll/Front Matter.md",
     "Jekyll/Drafts.md",
     "Jekyll",
-    "Docker/Docker.md",
-    "Docker/Docker PostGIS.md",
     "NodeJS.md",
     "DeepLearning/Practical Deep Learning.md",
     "Pacotes Python/Asyncio.md",
@@ -192,7 +194,6 @@
     "DeepLearning/Lesson1.md",
     "Pretix/Small-scale deployment with Docker.md",
     "DeepLearning",
-    "Docker/Docker Orfeo Toolbox.md",
     "Copilot.md",
     "Pretix"
   ]
